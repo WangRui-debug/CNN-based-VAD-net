@@ -12,3 +12,6 @@ For detailed information, please check follwing instrucion: https://github.com/w
    
 2. The gerneration of corresponding label by using webrtcvad. The sensitivity of VAD is from 0 to 3. 
    python3 ./label_generation.py --mix_file ./mix --label_file ./label --sensitivity 3 --batch_size 3
+
+The code of training is in progress. 
+2022.3.9
