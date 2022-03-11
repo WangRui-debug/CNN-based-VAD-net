@@ -1,4 +1,5 @@
 # CNN-based-VAD-net
+Part 1. Data(Noisy wav files) &label generation
 This is a script to generate the noisy training data and binary label for the training of VAD net
 
 First, please install py-webrtcvad by：
@@ -16,3 +17,10 @@ For detailed information, please check follwing instrucion: https://github.com/w
 The code of training is in progress. 
 
 2022.3.9
+
+Part 2. Training spectrogram data generation
+usage: bash ./run wav2stft.sh
+
+Part 3. Train the VAD net
+A taining code "train.py" was uploaded. There may some errors exist. 
+usage： python3 train.py --dataset wsj_noisy --save_root ./model/ --gpu 0
