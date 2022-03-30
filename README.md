@@ -22,5 +22,5 @@ Part 2. Training spectrogram data generation
 usage: bash ./run wav2stft.sh
 
 Part 3. Train the VAD net
-A taining code "train.py" was uploaded. There may some errors exist. 
-usage： python3 train.py --dataset wsj_noisy --save_root ./model/ --gpu 0
+A taining code "train2.py" was uploaded. There may some errors exist. 
+usage： python3 train2.py --dataset wsj_noisy --save_root ./model/ --gpu 0
